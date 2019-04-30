@@ -1,0 +1,366 @@
+/* Polices */
+@font-face {
+  font-family: 'subjectivityregular';
+  src: url("../fonts/Subjectivity-Regular-webfont.eot");
+  src: url("../fonts/Subjectivity-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Subjectivity-Regular-webfont.woff") format("woff"), url("../fonts/Subjectivity-Regular-webfont.ttf") format("truetype"), url("../fonts/Subjectivity-Regular-webfont.svg#subjectivityregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: teal;
+}
+
+a:hover {
+  color: teal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'subjectivityregular', Impact, 'Arial Narrow Bold', sans-serif;
+  width: 100%;
+  text-align: center;
+  /* ***************** HEADER ******************* */
+  /* ***************** MAIN ******************* */
+  /* ***************** FOOTER ******************* */
+}
+
+body header {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  min-height: 209px;
+}
+
+body header .portfolio .menu nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .navbar button:focus {
+  outline: 1px transparent dotted;
+}
+
+body header .navbar ul {
+  width: 100%;
+}
+
+body header .navbar ul li {
+  padding: 0 6%;
+}
+
+@media screen and (max-width: 1200px) {
+  body header .navbar ul li {
+    padding: 0 4%;
+  }
+}
+
+body .nav-pills .nav-link.active,
+body .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: darkslategrey;
+}
+
+body .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body .navbar-light .navbar-toggler:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+body main {
+  background: url("../images/fond.jpg") no-repeat fixed;
+  background-size: cover;
+  /* Section DESCRIPTION */
+  /* Section EXPERIENCE */
+  /* Section COMPETENCES */
+  /* Section FORMATION */
+  /* Section CONTACT */
+}
+
+body main #identity {
+  background-color: rgba(144, 146, 150, 0.4);
+}
+
+body main #identity .identity {
+  text-align: right;
+  padding: 135px 0 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  body main #identity .identity {
+    text-align: center;
+  }
+}
+
+body main #identity .identity h1 {
+  color: grey;
+  font-size: 2.5em;
+}
+
+body main #identity .identity h2 {
+  color: grey;
+  font-size: 1em;
+  font-style: italic;
+}
+
+body main #identity .identity h3 {
+  color: grey;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+body main .description {
+  padding: 120px 0;
+  background-color: darkslategrey;
+}
+
+body main .description .titre_description {
+  color: #e4e5e6;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+body main .description .titre_description .middle_underline {
+  border-top: 2px #e4e5e6 solid;
+  width: 20%;
+  margin: 0 40%;
+  margin-top: 30px;
+  display: block;
+}
+
+body main .description .text_description {
+  color: #e4e5e6;
+  text-align: center;
+}
+
+body main .experience {
+  padding: 120px 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  body main .experience {
+    text-align: center;
+  }
+}
+
+body main .experience .titre_experience {
+  color: grey;
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+
+body main .experience .titre_experience .underline {
+  border-top: 2px grey solid;
+  width: 20%;
+  margin-top: 30px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  body main .experience .titre_experience .underline {
+    width: 20%;
+    margin: 0 40%;
+    margin-top: 30px;
+    display: block;
+  }
+}
+
+body main .experience .text_experience {
+  color: grey;
+}
+
+body main .experience .text_experience strong {
+  color: black;
+}
+
+body main .competences {
+  padding: 50px 0;
+  background-color: darkslategrey;
+}
+
+body main .competences .titre_competences {
+  color: #e4e5e6;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+body main .competences .titre_competences .middle_underline {
+  border-top: 2px #e4e5e6 solid;
+  width: 20%;
+  margin: 0 40%;
+  margin-top: 30px;
+  display: block;
+}
+
+body main .competences .text_competences {
+  color: #e4e5e6;
+  text-align: center;
+}
+
+body main .competences .logos_langages {
+  width: 50%;
+  padding: 20px 0;
+}
+
+body main .formation {
+  padding: 120px 0;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  body main .formation {
+    text-align: center;
+  }
+}
+
+body main .formation .titre_formation {
+  color: grey;
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+
+body main .formation .titre_formation .right_underline {
+  border-top: 2px grey solid;
+  width: 20%;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  body main .formation .titre_formation .right_underline {
+    width: 20%;
+    margin: 0 40%;
+    margin-top: 30px;
+    display: block;
+  }
+}
+
+body main .formation .text_formation {
+  color: grey;
+}
+
+body main .contact {
+  background-color: darkslategrey;
+  padding: 50px 0;
+}
+
+body main .contact .titre_contact {
+  color: #e4e5e6;
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+
+body main .contact .titre_contact .middle_underline_contact {
+  border-top: 2px #e4e5e6 solid;
+  width: 20%;
+  margin: 0 40%;
+  margin-top: 30px;
+  display: block;
+}
+
+body main .contact form {
+  padding: 0 20%;
+}
+
+body main .contact form label {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body main .contact form .msg-error {
+  display: none;
+  color: red;
+  margin-left: 15px;
+  font-size: .85rem;
+}
+
+body main .contact form .msg-error span {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 5px 8px;
+}
+
+body main .contact form .msg-error--show {
+  display: inline-block;
+}
+
+body main .contact form .btn-primary {
+  color: darkslategrey;
+  background-color: #e4e5e6;
+  border-color: #e4e5e6;
+}
+
+body main .contact form .btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: darkslategrey;
+  border-color: darkslategrey;
+}
+
+body main .contact form .btn-primary:hover {
+  color: #e4e5e6;
+  background-color: darkslategrey;
+  border-color: #e4e5e6;
+}
+
+body main .contact form .btn-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem darkslategrey;
+          box-shadow: 0 0 0 0.2rem darkslategrey;
+  font-weight: bold;
+}
+
+body footer {
+  padding: 50px 0;
+  background-color: rgba(144, 146, 150, 0.4);
+}
+
+body footer .icon_facebook:hover {
+  color: #4267B2;
+}
+
+body footer .icon_linkedin:hover {
+  color: #007BB6;
+}
+
+body footer .copyright {
+  color: grey;
+}
+
+body footer .reserve {
+  font-size: 0.5em;
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */
